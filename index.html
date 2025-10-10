@@ -95,14 +95,6 @@
             line-height: 1.7;
         }
 
-        .cta-section {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
         .cta-button {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -119,27 +111,6 @@
         .cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
-        }
-
-        .contact-button {
-            background: transparent;
-            color: #667eea;
-            border: 2px solid #667eea;
-            padding: 18px 48px;
-            font-size: 1.3rem;
-            font-weight: 700;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .contact-button:hover {
-            background: #667eea;
-            color: white;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
         }
 
         .modal {
@@ -321,28 +292,26 @@
 <body>
     <div class="container">
         <div class="logo">🧠 Adaptive Sentience</div>
-        <h1>Stop Playing Catch-Up<br>with Attackers</h1>
-        <p class="subtitle">Automated red-teaming that continuously probes your social-engineering detection stack, identifies blind spots, and evolves your defenses—before the real threats arrive.</p>
+        <h1>Stop Playing Catch-Up<br>with Social-Engineering Attackers</h1>
+        <p class="subtitle">Adaptive Sentience is the first cyber security tool to focus exclusively on social engineering attacks.  Social engineering attacks are the number one cyber crime and are increasing 30% per year.  The <a href="https://www.fbi.gov/news/press-releases/fbi-releases-annual-internet-crime-report?FBI" target="_blank" rel="noopener noreferrer">FBI</a>
+estimates social engineering attacks cost businesses $16.6 billion in 2024.</p>
 
         <div class="features">
             <div class="feature">
-                <h3>🎯 Continuous Red-Teaming</h3>
-                <p>Automatically generate realistic social-engineering attacks across email, SMS, and collaboration platforms. Safely simulate diverse adversarial patterns without exposing real users.</p>
+                <h3>🎯 Continuous Red-Teaming for model training</h3>
+                <p>Automated red-teaming that continuously improves social-engineering detection, identifies blind spots, and evolves your defenses—before the real threats arrive. </p>
             </div>
             <div class="feature">
-                <h3>🛡️ Intelligent Triage</h3>
-                <p>Prioritize detection failures by novelty, business impact, and risk. Focus your team's efforts on the threats that matter most.</p>
+                <h3>🛡️ Proactive autonomous deterrence</h3>
+                <p>Adaptive Sentience proactively and autonomously engages with potential attackers to execute confident risk mitigation.</p>
             </div>
             <div class="feature">
-                <h3>🧠 Self-Improving Detection</h3>
-                <p>Automatically feed high-value failures back into model training. Your detection stack learns and adapts continuously, closing gaps before attackers find them.</p>
+                <h3>🧠 Enterprise Ready Detection</h3>
+                <p>Adaptive Sentience plugs into your existing enterprise endpoint detection and identity management and works across email, SMS, voice and social.</p>
             </div>
         </div>
 
-        <div class="cta-section">
-            <button class="cta-button" onclick="openModal()">✨ I'm Interested</button>
-            <a href="mailto:hello@adaptivesentience.ai" class="contact-button">📧 Contact Us</a>
-        </div>
+        <button class="cta-button" onclick="openModal()">✨ I'm Interested</button>
     </div>
 
     <!-- Interest Form Modal -->
