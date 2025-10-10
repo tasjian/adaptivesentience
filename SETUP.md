@@ -1,4 +1,4 @@
-# Buttsniffer Pre-Launch Website Setup
+# Adaptive Sentience Pre-Launch Website Setup
 
 ## Overview
 Single-page pre-launch website with interest form that submits to Google Sheets.
@@ -13,7 +13,7 @@ Single-page pre-launch website with interest form that submits to Google Sheets.
 ### Step 1: Create Google Sheet
 1. Go to [Google Sheets](https://sheets.google.com)
 2. Create a new spreadsheet
-3. Name it "Buttsniffer Interest Form"
+3. Name it "Adaptive Sentience Interest Form"
 4. In the first row, add these headers:
    - A1: `Timestamp`
    - B1: `First Name`
@@ -27,11 +27,11 @@ Single-page pre-launch website with interest form that submits to Google Sheets.
 2. Delete any default code
 3. Copy all code from `google-apps-script.js` and paste it into the script editor
 4. Click **Save** (disk icon)
-5. Name your project "Buttsniffer Form Handler"
+5. Name your project "Adaptive Sentience Form Handler"
 6. Click **Deploy > New deployment**
 7. Click the gear icon next to "Select type" and choose **Web app**
 8. Configure deployment:
-   - **Description**: "Buttsniffer interest form handler"
+   - **Description**: "Adaptive Sentience interest form handler"
    - **Execute as**: Me
    - **Who has access**: Anyone
 9. Click **Deploy**
@@ -104,7 +104,7 @@ Modify the gradient colors in the `<style>` section:
 - Look for these hex codes throughout the CSS
 
 ### Update Company Name
-Replace "Buttsniffer" throughout the HTML if needed.
+Replace "Adaptive Sentience" throughout the HTML if needed.
 
 ## Support
 

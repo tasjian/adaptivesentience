@@ -1,5 +1,5 @@
 /**
- * Google Apps Script for Buttsniffer Interest Form
+ * Google Apps Script for Adaptive Sentience Interest Form
  *
  * SETUP INSTRUCTIONS:
  * 1. Create a new Google Sheet
